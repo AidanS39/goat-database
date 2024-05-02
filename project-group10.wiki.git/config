@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = git@github.com:TCNJ-degoodj/project-group10.wiki.git
+	fetch = +refs/*:refs/*
+	mirror = true
+[remote "new-origin"]
+	url = git@github.com:AidanS39/goat-database.wiki.git
+	fetch = +refs/heads/*:refs/remotes/new-origin/*
